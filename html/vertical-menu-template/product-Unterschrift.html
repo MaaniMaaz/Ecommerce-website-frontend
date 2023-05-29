@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed" dir="ltr" data-theme="theme-default"
+    data-assets-path="../../assets/" data-template="vertical-menu-template">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Data Entry</title>
+
+    <meta name="description" content="" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="../../assets/vendor/fonts/tabler-icons.css" />
+    <link rel="stylesheet" href="../../assets/vendor/fonts/flag-icons.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="../../assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../../assets/css/demo.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/node-waves/node-waves.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/bs-stepper/bs-stepper.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/bootstrap-select/bootstrap-select.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/select2/select2.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/formvalidation/dist/css/formValidation.min.css" />
+    <link rel="stylesheet" href="../../assets/css/_vanilla-calendar.min.css" />
+
+    <!-- Page CSS -->
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
+    <script src="../../assets/vendor/js/template-customizer.js"></script>
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="../../assets/js/config.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white mb-3">
+        <div class="container">
+            <img class="img" src="../../assets/img/logo.png" class="logo" width="200" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-ex-13">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-ex-13">
+                <div class="navbar-nav me-auto">
+                    <a class="nav-item nav-link active mx-3 small" href="javascript:void(0)">
+                        <b>
+                            <small>Kostenlose Beratung</small>
+                        </b>
+                    </a>
+                    <a class="nav-link text-primary me-3" href="#">
+                        <i class="ti ti-phone text-primary small "></i>
+                        <b>
+                            <small>030 555 7850 65</small>
+                        </b>
+                    </a>
+                    <a class="nav-link small me-3" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false"><b>
+                            <small>Mo-Fr 9.00-17.00 Uhr</small>
+                        </b>
+                    </a>
+
+                </div>
+            </div>
+            <img class="img" src="../../assets/img/sanubi.png" class="logo" width="200" alt="">
+        </div>
+    </nav>
+    <!-- header section start hare -->
+    <!-- <div class="container mb-3">
+        <div class="row demo-vertical-spacing">
+            <div class="col">
+                <i class="ti ti-circle-check text-success"></i><b><small> Box wählen
+                        .......................................</small></b>
+
+                </button>
+            </div>
+            <div class="col">
+
+                <i class="ti ti-circle-check text-success"></i><b><small> Dateneingabe
+                        ...................................
+                    </small></b>
+                </button>
+            </div>
+
+            <div class="col">
+                <i class="ti ti-copyright"></i><b><small><span class="bg-info text-white btn"> Unterschrift</span>
+                    </small></b>
+                </button> ..........................
+            </div>
+
+
+            <div class="col">
+                <i class="ti ti-copyright"></i> <b><small>Fertig ..................................</small></b>
+                </button>
+            </div>
+        </div>
+
+
+    </div> -->
+    <main>
+        <div class="container">
+            <div class="row mb-3">
+                <div class="mt-4">
+                    <p> <b><small class="text-black">Vielent Dank fur lhre Bestellung</small></b></p>
+                    <p> <i class="ti ti-car text-black"></i><b><small class="text-black"> Die Lieferung ist vorgesehen
+                                fun den 16.Marz 2023</small></b></p>
+
+                </div>
+                <div>
+                    <h5 class="text-danger">Bitte vervollstandigen Sie jetzt noch lhre Daten:</h5>
+                </div>
+                <div class="card p-4">
+                    <p class="text-black"><b>Versicherteninformationon der pflegebedurftigen person</b></p>
+
+                    <div class="row">
+                        <div class="col-md-10" data-select2-id="19">
+                            <label class="form-label" for="collapsible-state"><span class="text-black">Gesetzliche
+                                    Krankenkasse*</span></label>
+                            <div class="d-sm-flex">
+                                <div class="position-relative w-50" data-select2-id="18">
+                                    <select id="collapsible-state" class="select2 form-select select2-hidden-accessible"
+                                        data-allow-clear="true" data-select2-id="collapsible-state" tabindex="-1"
+                                        aria-hidden="true">
+                                        <option value="" data-select2-id="9">Select</option>
+                                        <option value="AL" data-select2-id="27">Alabama</option>
+                                        <option value="AK" data-select2-id="28">Alaska</option>
+                                        <option value="AZ" data-select2-id="29">Arizona</option>
+                                        <option value="AR" data-select2-id="30">Arkansas</option>
+                                    </select>
+                                </div>
+                                <div class="d-flex ms-3">
+                                    <label class="form-check mt-2">
+                                        <input type="checkbox" class="form-check-input">
+                                        <span class="form-check-label"><small class="text-black">private
+                                                Krankenkasse</small> </span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 mt-2">
+                            <label class="form-label" for="collapsible-pincode"><span
+                                    class="text-black">Versichertennummer*</span></label>
+                            <input type="text" id="collapsible-pincode" class="form-control" placeholder="">
+                        </div>
+                        <div class="col-md-4 mt-2">
+                            <label class="form-label" for="collapsible-pincode"><span
+                                    class="text-black">Geburtstag*</span></label>
+                            <input type="text" id="collapsible-pincode" class="form-control" placeholder="tt.mm.jjjj">
+                        </div>
+                    </div>
+                </div>
+                <div class="card my-3 p-4 ">
+                    <b><small class="text-black mb-2">Unterschrift des Ansprechpartners*</small></b>
+                    <textarea class="form-control"
+                        placeholder="Do you have any comment? Then you can leave us a message here."
+                        id="basic-default-Comment" name="basic-default-bio" rows="8" required=""></textarea>
+                    <div class="d-flex justify-content-between mt-3">
+                        <p><small class="text-black">Benutzen Sie Maus, Trackpad oder Ihren das oben stehende Feld zu
+                                zeichnen.</small></p>
+                        <div>
+                            <button type="button"
+                                class="btn btn-outline-secondary waves-effect border border-dark text-black "><b>zurucksetzen</b>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="d-flex justify-content-end mb-5">
+                    <a href="prodect-informatin.html" class="btn btn-outline-dark border-0 me-3"><svg width="24" height="24"
+                            xmlns="http://www.w3.org/2000/svg" class="me-3 ">
+                            <path
+                                d="M3.97 8.217a.75.75 0 011.06 1.06l-2.471 2.47H23.25a.75.75 0 01.743.648l.007.102a.75.75 0 01-.75.75H2.561l2.47 2.47a.75.75 0 01.072.976l-.073.084a.75.75 0 01-1.06 0l-3.75-3.75-.064-.072A.752.752 0 010 12.497l.004.077a.754.754 0 01-.004-.06v-.017a.765.765 0 01.129-.42.748.748 0 01.09-.11l-.068.078a.754.754 0 01.069-.078z"
+                                fill="#000" fill-rule="evenodd"></path>
+                        </svg>
+                        <div>Zurück</div>
+                    </a>
+                    <a href="product-fertig.html" class="btn btn-warning form-control" style="width: 20%;">Jetzt
+                        bestellen</a>
+                </div>
+
+            </div>
+    </main>
+    
+
+    <footer class="footer bg-white p-4 shadow-sm">
+        <div class="container-fluid container-p-x  ">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 mb-4 mb-sm-0">
+                    <h4 class="fw-bolder mb-3">
+                        <img class="img img-fluid" width="250px" src="../../assets/logo/image.png" alt="">
+                    </h4>
+
+
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4 mb-md-0 text-black">
+                    <h4 class="text-black-full">Kontakt</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="text-black-full nav-link mb-2">Impressum</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black-full nav-link mb-2">Datenschutzerklarung </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black-full nav-link mb-2">AGB</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4 mb-sm-0 text-black-full">
+                    <h4 class="text-black-full">Box bestellen</h4>
+                    <ul class="list-unstyled text">
+                        <li>
+                            <a href="#" class="text-black-full nav-link mb-2">Zusatzleistungen</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black-full nav-link mb-2">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black-full nav-link mb-2">Uber uns</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black-full nav-link mb-2">Pflegehilfsmittel</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4 mb-sm-0 text-black-full">
+                    <h4 class="text-black-full">Social Media</h4>
+                    <!-- <small class="text-light fw-semibold">Social Media</small> -->
+                    <div class="demo-inline-spacing">
+                        <button type="button" class="btn btn-icon btn-facebook waves-effect waves-light">
+                            <i class="tf-icons ti ti-brand-facebook"></i>
+                        </button>
+                        <button type="button" class="btn btn-icon btn-twitter waves-effect waves-light">
+                            <i class="tf-icons ti ti-brand-twitter"></i>
+                        </button>
+                        <button type="button" class="btn btn-icon btn-google-plus waves-effect waves-light">
+                            <i class="tf-icons ti ti-brand-google"></i>
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            <h5 class="text-black-full">Design by Coduko</h5>
+        </div>
+    </footer>
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../../assets/vendor/js/bootstrap.js"></script>
+    <script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../../assets/vendor/libs/node-waves/node-waves.js"></script>
+
+    <script src="../../assets/vendor/libs/hammer/hammer.js"></script>
+    <script src="../../assets/vendor/libs/i18n/i18n.js"></script>
+    <script src="../../assets/vendor/libs/typeahead-js/typeahead.js"></script>
+
+    <script src="../../assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+    <script src="../../assets/vendor/libs/bs-stepper/bs-stepper.js"></script>
+    <script src="../../assets/vendor/libs/bootstrap-select/bootstrap-select.js"></script>
+    <script src="../../assets/vendor/libs/select2/select2.js"></script>
+    <script src="../../assets/vendor/libs/formvalidation/dist/js/FormValidation.min.js"></script>
+    <script src="../../assets/vendor/libs/formvalidation/dist/js/plugins/Bootstrap5.min.js"></script>
+    <script src="../../assets/vendor/libs/formvalidation/dist/js/plugins/AutoFocus.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="../../assets/js/main.js"></script>
+
+    <!-- Page JS -->
+
+    <script src="../../assets/js/form-wizard-numbered.js"></script>
+    <script src="../../assets/js/form-wizard-validation.js"></script>
+</body>
+
+</html>
